@@ -11,7 +11,7 @@ the set I of imaginary numbers is the basis of negative space.
 2. A huilon can change shape Ad Infinitum
 3. Two incident huilons are the same huilon
 4. adding huilons evolves the huilon
-5. subtracting huilons devolved the huilon
+5. subtracting huilons devolves the huilon
 ## Huilon Game of Life
 a Huilon will be a shape in IR3 or Imaginary Real 3D Space.
 the operation that combines Huilons will be the XOR function on area.
