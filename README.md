@@ -16,4 +16,4 @@ the set I of imaginary numbers is the basis of negative space.
 ## The Huilon Game of Life
 a Huilon will be a shape in IR3 or Imaginary Real 3D Space.
 the operation that combines Huilons will be the XOR function on area.
-AI will then be trained to trade Huilons with each other.
+AI will then be trained to trade Huilons with each other to maximize area.
