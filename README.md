@@ -6,7 +6,7 @@ A quark would then be then made of Huilons and forces to move quarks could be re
 Huilons exist in I space or Imaginary Space. 
 Huilons are a Imaginary Topological space. 
 the set I of imaginary numbers is the basis of negative space.
-## Huilon Laws
+## Huilon Axioms
 1. Ad Infinitum a huilon never changes shape
 2. A huilon can change shape Ad Infinitum
 3. Two incident huilons are the same huilon
