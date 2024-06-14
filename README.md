@@ -10,8 +10,9 @@ the set I of imaginary numbers is the basis of negative space.
 1. Ad Infinitum a huilon never changes shape
 2. A huilon can change shape Ad Infinitum
 3. Two incident huilons are the same huilon
-4. adding huilons evolves the huilon
-5. subtracting huilons devolves the huilon
+4. Incidence is a paradox itself, every combination of huilons both exist and don't exist
+5. adding huilons evolves the huilon
+6. subtracting huilons devolves the huilon
 ## The Huilon Game of Life
 a Huilon will be a shape in IR3 or Imaginary Real 3D Space.
 the operation that combines Huilons will be the XOR function on area.
