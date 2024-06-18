@@ -24,7 +24,7 @@ Point Theory
 2. distance is a measure of consequence between two points
 
 I previously surmised many things in quantum theory many of which are well known literature now.
-I once thought a platte falling perfectly to create a dribling effect was the true nature of quantum entanglement motion.
+I once thought a plate falling perfectly to create a dribbling effect was the true nature of quantum entanglement motion.
 Literature now says that everything vibrates together to support quantum tunneling and literal action at a distance. 
 literal action at a distance is forces at a distance but quantum tunneling is matter moving no distance apparently!
 
