@@ -17,3 +17,10 @@ the set I of imaginary numbers is the basis of negative space.
 a Huilon will be a shape in IR3 or Imaginary Real 3D Space.
 the operation that combines Huilons will be the XOR function on area.
 AI will then be trained to trade Huilons with each other to maximize area.
+## Leading Theory
+Point Theory
+
+1. There is no physical distance between any two points
+2. distance is a measure of consequence between two points
+
+I previously surmised many things in quantum theory many of which are well known literature now.
