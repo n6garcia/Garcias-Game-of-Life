@@ -9,8 +9,8 @@ the set I of imaginary numbers is the basis of negative space.
 ## Huilon Axioms
 1. Ad Infinitum a huilon never changes shape
 2. A huilon can change shape Ad Infinitum
-3. Two incident huilons are the same huilon (one topological space)
-4. Incidence is a paradox itself, every combination of huilons both exist and don't exist
+3. Two consequent huilons are the same huilon (one topological space)
+4. Consequence is a paradox itself, every combination of huilons both exist and don't exist
 5. adding huilons evolves the huilon
 6. subtracting huilons devolves the huilon
 ## The Huilon Game of Life
