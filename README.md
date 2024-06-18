@@ -26,7 +26,7 @@ Point Theory
 I previously surmised many things in quantum theory many of which are well known literature now.
 I once thought a plate falling perfectly to create a dribbling effect was the true nature of quantum entanglement motion.
 Literature now says that everything vibrates together to support quantum tunneling and literal action at a distance. 
-literal action at a distance is forces at a distance but quantum tunneling is matter moving no distance apparently!
+literal action at a distance is forces at a distance but quantum tunneling is a matter moving no distance apparently!
 
 At the same time I surmised another structure. A sequence of infinitely unique characters.
 How can a character never be repeated in a sequence.
