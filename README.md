@@ -32,7 +32,7 @@ At the same time I surmised another structure. A sequence of infinitely unique c
 How can a character never be repeated in a sequence.
 I call this an informal number because it breaks many conventions of math.
 
-I also came up with conjector theory after this discover.
+I came up with conjector theory after this discover.
 Planar computations are done with informal numbers.
 An informal number is organized such as a vector. 
 Two 1-dim informal numbers operated together requires a single infinity.
