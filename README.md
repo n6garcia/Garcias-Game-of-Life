@@ -32,5 +32,19 @@ At the same time I surmised another structure. A sequence of infinitely unique c
 How can a character never be repeated in a sequence.
 I call this an informal number because it breaks many conventions of math.
 
+I also came up with conjector theory after this discover.
+Planar computations are done with informal numbers.
+An informal number is organized such as a vector. 
+Two 1-dim informal numbers operated together requires a single infinity.
+An informal matrix is the k>=2 k-dimensional version of an informal number.
+Calculations done requiring k-dimensional informal numbers requires inf^k to compute.
+inf is not a number it is a constant. inf^0 = inf, inf^1 = inf, inf^k = inf.
+There is no infinity that is not an infinity.
+conjector theory says that because of hard limits on physical computational requirements that there exists a critical conjector functions which lowers a k-dimensional informal number to a 1-dim space. The universe itself is represented by a single informal number.
+
+Huilon theory is the final conclusion I've made to try to encapsulate literal action at a distance.
+This is a force that stems from the idea that consequence between a thing and anything else could be a force hich may just be god's handiwork.
+This means inanimate force at a distance is possible through god.
+
 
 
