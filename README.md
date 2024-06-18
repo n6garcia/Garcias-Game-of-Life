@@ -43,7 +43,7 @@ There is no infinity that is not an infinity.
 conjector theory says that because of hard limits on physical computational requirements that there exists a critical conjector functions which lowers a k-dimensional informal number to a 1-dim space. The universe itself is represented by a single informal number.
 
 Huilon theory is the final conclusion I've made to try to encapsulate literal action at a distance.
-This is a force that stems from the idea that consequence between a thing and anything else could be a force wich may just be god's handiwork.
+This is a force that stems from the idea that consequence between a thing and anything else could be a force which may just be god's handiwork.
 This means inanimate force at a distance is possible through god.
 
 
