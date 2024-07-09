@@ -1,7 +1,9 @@
 # Garcia's Game of Life
 I am interested in creating another version of conway's game of life in order to examine a theoretical framework I created. 
 ## The Huilon Theory
-A Huilon is a theoretical framework for an idea of a particle beneath Planck's Constant. 
+A Huilon is a theoretical framework for an idea of a particle beneath Planck's Constant.
+A Huilon is both vacuumous and spacious.
+### hypothesis
 A quark would then be made of Huilons and forces to move quarks could be researched.
 Huilons exist in I space or Imaginary Space. 
 Huilons are a Imaginary Topological space. 
