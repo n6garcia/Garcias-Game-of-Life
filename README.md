@@ -46,7 +46,15 @@ conjector theory says that because of hard limits on physical computational requ
 
 Huilon theory is the final conclusion I've made to try to encapsulate literal action at a distance.
 This is a force that stems from the idea that consequence between a thing and anything else could be a force which may just be god's handiwork.
-This means inanimate force at a distance is possible through god.
 
+## Noel's Theory
+
+This theory means inanimate force at a distance is possible through god.
+
+I claim to have disproven Geodell's incompleteness by proving P=NP through the completion of Zermelo-fermet Set Theory.
+
+I have devised rules for what i am calling the reductive proof method (derivative superset math) and the enductive proof method.
+
+By tomorrow I will have written most of the theory I have so far! An Informal Number is a Complex Number with a restricted i component (to R/Q).
 
 
