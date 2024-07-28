@@ -54,7 +54,8 @@ This theory means inanimate force at a distance is possible through god.
 I claim to have disproven Geodell's incompleteness by proving P=NP through the completion of Zermelo-fermet Set Theory.
 
 I have devised rules for what i am calling the reductive proof method (derivative superset math) and the enductive proof method.
+ 
+An Informal Number is a Complex Number with a restricted i component (to R/Q).
 
-By tomorrow I will have written most of the theory I have so far! An Informal Number is a Complex Number with a restricted i component (to R/Q).
-
+Check out EonCalc for the breakdown of "Reductive Algebra".
 
