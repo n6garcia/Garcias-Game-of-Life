@@ -20,11 +20,13 @@ libs = []  # ex -lGL
 def genmain():
     o = []
 
+    CONWH = genconwh()
     HEADER = genheader()
     BPLATE = genbplate()
 
     o.extend(
         [
+            CONWH,
             HEADER,
             "int main(int argc, char **argv) {",
             BPLATE,
@@ -189,7 +191,7 @@ srcdir = os.path.abspath(".")
 def build():
     cpps = []
     obfiles = []
-    ffl = [genconwh]
+    ffl = []
 
     open("/tmp/gen.main.cpp", "wb").write(genmain().encode("utf-8"))
     file = "/tmp/gen.main.cpp"
