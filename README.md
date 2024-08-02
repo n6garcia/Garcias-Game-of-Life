@@ -1,4 +1,4 @@
-# Garcia's Game of Life
+# Noel's Game of Life
 I am interested in creating another version of conway's game of life in order to examine a theoretical framework I created. 
 ## The Huilon Theory
 A Huilon is a theoretical framework for an idea of a particle beneath Planck's Constant.
