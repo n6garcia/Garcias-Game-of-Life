@@ -26,10 +26,10 @@ def genmain():
 
     o.extend(
         [
-            CONWH,
             HEADER,
             "int main(int argc, char **argv) {",
             BPLATE,
+            CONWH,
         ]
     )
 
