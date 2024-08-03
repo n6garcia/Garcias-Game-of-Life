@@ -92,7 +92,8 @@ def genconwh():
 
 
 def genheader():
-    CODE = """
+    CODE = (
+        """
     #include <stdio.h>
 
     /* some additional header needed to use the function evolve provided
@@ -120,13 +121,21 @@ def genheader():
     int i;
     for (i=0; i < (size*size); i++)
     {
-        if ( (i % size) == 0 ) printf("\n");
-        printf("%c", f[i] ? 'X' : '.');
+        if ( (i """
+        + """% """
+        + """size) == 0 ) printf"""
+        + """("\\"""
+        + """n");"""
+        + """printf"""
+        + """("%"""
+        + """c"""
+        + """", f[i] ? 'X' : '.');
     }
     printf("\n");
     }
 
     """
+    )
     return CODE
 
 
