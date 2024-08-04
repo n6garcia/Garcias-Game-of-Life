@@ -23,7 +23,7 @@ def genmain():
 
     CONWH = genconwh()
     HEADER = genheader()
-    BPLATE = genbplate()
+    BPLATE = genbplate(2)
 
     o.extend(
         [
@@ -117,8 +117,9 @@ char small_blinker[] = {
 };
 char temp_blinker[BLINKER_SIZE*BLINKER_SIZE];
 
-#define FIELD_SIZE 45
-#define FIELD_GEN 175
+#define FIELD_SIZE 20
+//#define FIELD_GEN 175
+#define FIELD_GEN 1
 char field[FIELD_SIZE * FIELD_SIZE];
 char temp_field[FIELD_SIZE*FIELD_SIZE];
 
@@ -271,5 +272,3 @@ print(dll)
 
 print(dll.main)
 dll.main()
-
-print("hello!")
