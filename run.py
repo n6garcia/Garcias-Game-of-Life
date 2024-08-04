@@ -134,7 +134,7 @@ def genbplate(gliders=16):
     a = [
         """
     int i;
-    char *fa, *fb, *tt, op;
+    char *fa, *fb, *tt;
     for(i=0; i < (FIELD_SIZE*FIELD_SIZE) ; i++) field[i]=0;
     """
     ]
