@@ -1,12 +1,78 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-
 import os, sys, subprocess
+from random import random, choice
 
 
-def initialize_grid(size):
-    return np.random.choice([0, 1], size=(size, size))
+def parse_cells(fname):
+    dat = open(fname, "rb").read().decode("utf-8")
+    ship = []
+    for ln in dat.splitlines():
+        print(ln)
+        if ln.startswith("!"):
+            continue  ## comments
+        if not len(ln.strip()):
+            continue  ## empty line
+        a = []
+        for char in ln:
+            if char == ".":
+                a.append(0)
+            else:
+                a.append(1)
+        ship.append(a)
+    print(ship)
+    return ship
+
+
+ship_names = [
+    "Coe_ship",
+    "Glider",
+    "Lightweight_spaceship",
+    "Middleweight_spaceship",
+    "Heavyweight_spaceship",
+    "MWSS_on_MWSS_1",
+    "LWSS_on_MWSS_2",
+    "LWSS_on_MWSS_3",
+    "Sidecar",
+    "Loafer",
+    "X66",
+    "Big_A",
+    "Dart",
+]
+
+ships = []
+
+for ship in ship_names:
+    wiki = "https://conwaylife.com/wiki/" + ship
+    print(wiki)
+    name = "%s.cells" % ship.lower().replace("_", "")
+    name = (
+        name.replace("light", "l")
+        .replace("heavy", "h")
+        .replace("weight", "w")
+        .replace("middle", "m")
+        .replace("spaceship", "ss")
+    )
+    url = "https://www.conwaylife.com/patterns/" + name
+    print(url)
+    if not os.path.isfile("./" + name):
+        cmd = ["wget", url]
+        print(cmd)
+        subprocess.check_call(cmd)
+
+    ships.append(parse_cells("./" + name))
+
+
+def initialize_grid(size, spawn=3):
+    g = np.zeros((size, size), dtype=np.int8)
+    for s in range(spawn):
+        ship = choice(ships)
+        for y, ln in enumerate(ship):
+            for x, val in enumerate(ln):
+                if val:
+                    g[x][y] = 1
+    return g
 
 
 def count_neighbors(grid, x, y):
