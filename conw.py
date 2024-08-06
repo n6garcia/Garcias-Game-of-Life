@@ -9,7 +9,7 @@ def parse_cells(fname):
     dat = open(fname, "rb").read().decode("utf-8")
     ship = []
     for ln in dat.splitlines():
-        print(ln)
+        # print(ln)
         if ln.startswith("!"):
             continue  ## comments
         if not len(ln.strip()):
@@ -21,7 +21,7 @@ def parse_cells(fname):
             else:
                 a.append(1)
         ship.append(a)
-    print(ship)
+    # print(ship)
     return ship
 
 
@@ -45,7 +45,7 @@ ships = []
 
 for ship in ship_names:
     wiki = "https://conwaylife.com/wiki/" + ship
-    print(wiki)
+    # print(wiki)
     name = "%s.cells" % ship.lower().replace("_", "")
     name = (
         name.replace("light", "l")
@@ -55,7 +55,7 @@ for ship in ship_names:
         .replace("spaceship", "ss")
     )
     url = "https://www.conwaylife.com/patterns/" + name
-    print(url)
+    # print(url)
     if not os.path.isfile("./" + name):
         cmd = ["wget", url]
         print(cmd)
