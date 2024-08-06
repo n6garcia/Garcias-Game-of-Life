@@ -21,31 +21,17 @@ def count_neighbors(grid, x, y):
     )
 
 
-def update_grid_odd(grid):
-    size = len(grid)
-    new_grid = np.copy(grid)
-
-    for x in range(size):
-        for y in range(size):
-            neighbors = count_neighbors(
-                new_grid, x, y
-            )  # Use new_grid to count neighbors
-            if grid[x][y] == 1:
-                if neighbors < 2 or neighbors > 3:
-                    new_grid[x][y] = 0  # Huilon becomes vacuumous (dies)
-            else:
-                if neighbors == 3:
-                    new_grid[x][y] = 1  # Huilon becomes spacious (birth)
-    return new_grid
-
-
 def update_grid(grid):
     new_grid = np.copy(grid)
     size = len(grid)
 
     for x in range(size):
         for y in range(size):
-            neighbors = count_neighbors(grid, x, y)
+            if "--odd" in sys.argv:
+                # Use new_grid to count neighbors
+                neighbors = count_neighbors(new_grid, x, y)
+            else:
+                neighbors = count_neighbors(grid, x, y)
             if grid[x][y] == 1:
                 if neighbors < 2 or neighbors > 3:
                     new_grid[x][y] = 0  # Huilon becomes vacuumous (dies)
@@ -64,10 +50,7 @@ def animate_grid(size, steps):
 
     def animate(i):
         nonlocal grid
-        if "--odd" in sys.argv:
-            grid = update_grid_odd(grid)
-        else:
-            grid = update_grid(grid)
+        grid = update_grid(grid)
         img.set_data(grid)
         return [img]
 
