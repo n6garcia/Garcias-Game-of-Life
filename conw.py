@@ -130,6 +130,12 @@ def animate_grid(size, steps):
 
 # Example usage
 if "--1k-steps" in sys.argv:
-    animate_grid(size=50, steps=1000)
+    if "--2x" in sys.argv:
+        animate_grid(size=100, steps=1000)
+    else:
+        animate_grid(size=50, steps=1000)
 else:
-    animate_grid(size=50, steps=100)
+    if "--2x" in sys.argv:
+        animate_grid(size=100, steps=100)
+    else:
+        animate_grid(size=50, steps=100)
