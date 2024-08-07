@@ -65,6 +65,8 @@ for ship in ship_names:
 
 
 def initialize_grid(size, spawn=3):
+    if "--10gl" in sys.argv:
+        spawn = 10
     g = np.zeros((size, size), dtype=np.int8)
     for s in range(spawn):
         ship = choice(ships)
